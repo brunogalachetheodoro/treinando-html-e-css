@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagen Dinâmica</h1>
+    <p>Abra essa página em diferentes resoluções</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/p.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.jpg" type="image/png">
+        <img src="imagens/g.jpg" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reprozudir audio em HTML</p>
+    <audio src="midia/let-it-be.mp3" controls autoplay></audio>
+
+    <h1>Colocando Vídeo do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/r9buAwVBDhA?si=coxZexVCGgMti6v3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

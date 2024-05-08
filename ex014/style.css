@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(236, 232, 232);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
