@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    padding: 0px 0px 30px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+div {
+    margin: 30px;
+}
+
+.fundo-cinza {
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 400px;
+    margin: 0px;
+}
+
+div > p {
+    font-size: 35px;
+    margin: 22px 0px 0px 0px;
+}
+
+.div_branca{
+    padding: 0px 0px 50px 5px;
+}
+
+.imagem1 {
+    background-image: url(imagens/phone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    padding: 50px 0px 50px 30px;
+} 
+
+.imagem2 {
+    background-image: url(imagens/carta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    padding: 50px 0px 50px 30px;
+} 
+footer {
+    background-color: black;
+    padding: 12px;
+
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
