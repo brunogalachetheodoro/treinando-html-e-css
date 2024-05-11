@@ -78,22 +78,26 @@ section > p {
     background-size: cover;
     background-attachment:fixed;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 0px black;
     margin: 0px;
     padding: 50px 0px 50px 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
 } 
 
 .imagem2 {
     background-image: url(imagens/carta.jpg);
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 0px black;
     margin: 0px;
     padding: 50px 0px 50px 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
 } 
+
+
 footer {
     background-color: black;
     padding: 12px;
