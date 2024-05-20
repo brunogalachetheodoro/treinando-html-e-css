@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="menupocket" class="material-symbols-outlined" onclick="clickmenu()">
+            menu
+            </span>
+        <menu id="menujs">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident nisi accusamus odio mollitia maxime assumenda porro alias cupiditate at numquam minus quam similique cum tenetur et, fugiat molestias non accusantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laudantium corporis nisi aut fugit, quia vitae architecto nulla sed voluptatem porro qui rerum ea possimus repudiandae illo in. Aliquid, ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo ipsum tempore deleniti hic architecto temporibus soluta aliquid iure sint placeat molestiae ut eius perspiciatis saepe magnam vitae, vel sequi!</p>
+        </article>
+    </main>
+    <script>
+        function clickmenu() {
+           if (menujs.style.display =='block') {
+            menujs.style.display = 'none'
+           } else {
+            menujs.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
